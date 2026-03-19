@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThorVG Home</title>
+    <meta
+      name="description"
+      content="ThorVG 홈페이지의 기본 랜딩 페이지입니다."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="/">ThorVG</a>
+        <nav class="site-nav" aria-label="주요 메뉴">
+          <a href="/" aria-current="page">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/showcase.html">Showcase</a>
+          <a href="/docs.html">Docs</a>
+          <a href="/blog.html">Blog</a>
+          <a href="/tools.html">Tools</a>
+        </nav>
+      </header>
+
+      <main class="site-main">
+        <section class="hero">
+          <p class="eyebrow">Vector Graphics for Every Screen</p>
+          <h1>ThorVG 홈페이지 기본 구조</h1>
+          <p class="hero-copy">
+            다크/라이트 테마와 모바일 환경을 고려한 기본 랜딩 페이지입니다.
+            추후 About, Showcase, Docs, Blog, Tools 페이지로 확장할 수 있도록
+            공통 구조를 먼저 구성했습니다.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/docs.html">Explore Docs</a>
+            <a class="button secondary" href="/showcase.html">View Showcase</a>
+          </div>
+        </section>
+
+        <section class="page-grid" aria-label="사이트 구성">
+          <article class="page-card">
+            <h2>About</h2>
+            <p>프로젝트 소개, 비전, 팀과 철학을 담는 페이지.</p>
+          </article>
+          <article class="page-card">
+            <h2>Showcase</h2>
+            <p>작업물과 사용 사례를 시각적으로 보여주는 페이지.</p>
+          </article>
+          <article class="page-card">
+            <h2>Docs</h2>
+            <p>설치, 사용법, API 가이드를 제공하는 문서 영역.</p>
+          </article>
+          <article class="page-card">
+            <h2>Blog</h2>
+            <p>업데이트, 기술 글, 릴리즈 노트를 게시하는 공간.</p>
+          </article>
+          <article class="page-card">
+            <h2>Tools</h2>
+            <p>실험 도구와 유틸리티로 연결되는 허브 페이지.</p>
+          </article>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <small>© 2026 ThorVG. All rights reserved.</small>
+      </footer>
+    </div>
+  </body>
+</html>
